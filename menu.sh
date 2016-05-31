@@ -3,12 +3,12 @@
 #Variables
 ROOTPATH=/Config-Services-master/
 
-clear
-INSTALL="yum -y -q install"
-echo -n "Installing wget .........."; $INSTALL wget &> $NULL; echo " done.";
-echo -n "Downloading from GitHub.........."; wget https://github.com/luanpmadvn/Config-Services/archive/master.zip --no-check-certificate -P / ; echo " done.";
-echo -n "Extracting master.zip........."; unzip /master ; echo "done.";
-chmod 777 -R /Config-Services-master/
+#clear
+#INSTALL="yum -y -q install"
+#echo -n "Installing wget .........."; $INSTALL wget &> $NULL; echo " done.";
+#echo -n "Downloading from GitHub.........."; wget https://github.com/luanpmadvn/Config-Services/archive/master.zip --no-check-certificate -P / ; echo " done.";
+#echo -n "Extracting master.zip........."; unzip /master ; echo "done.";
+#chmod 777 -R /Config-Services-master/
 
 
 # Assign IP Address
