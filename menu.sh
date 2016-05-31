@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Variables
-ROOTPATH=/Config-Services-master/
+ROOTPATH=/Config-Services-master
 
 #clear
 #INSTALL="yum -y -q install"
