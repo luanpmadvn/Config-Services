@@ -1,0 +1,18 @@
+$TTL 86400
+@	IN	SOA	server1.congty.com. root.(
+			3;
+			28800;
+			7200;
+			604800;
+			86400;
+)
+; Name server's
+@	IN	NS	server1.congty.com.
+@	IN	PTR	congty.com.
+
+; Name server hostname to IP resolve.
+server1	IN	A	172.16.1.10
+
+; Hosts in Domain
+
+10	IN	PTR	server1.congty.com.
