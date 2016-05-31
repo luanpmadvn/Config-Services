@@ -27,6 +27,6 @@ echo "NETMASK=$NETMASK" >> $ROOTPATH-$INTERFACE
 echo "GATEWAY=$GATEWAY" >> $ROOTPATH-$INTERFACE
 echo "DNS1=8.8.8.8" >> $ROOTPATH-$INTERFACE
 
-echo -n "Restarting network......"; service network restart &> $NULL; echo "done."; pause;
-clear
-ifconfig $INTERFACE
+echo -n "Restarting network......"; service network restart &> $NULL; echo "done."; 
+
+pause;
